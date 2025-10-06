@@ -1,0 +1,98 @@
+{
+    "name": "ControlMapping",
+    "maps": [
+        {
+            "name": "default",
+            "id": "19997fb7-d0ab-4ad5-b41f-e15f41a3b85f",
+            "actions": [
+                {
+                    "name": "GiveMoney",
+                    "type": "Button",
+                    "id": "768b6113-b5ae-473a-82f1-075f76f8894c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "GiveMoreMoney",
+                    "type": "Button",
+                    "id": "6392f19f-9f49-4ac9-92a5-f4f24e2dba2b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "One Modifier",
+                    "id": "612d4b00-6fe5-4911-a942-46161217185c",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GiveMoney",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "1a42b132-dc52-4a5e-9b35-6f4b397c6138",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GiveMoney",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "8442a43f-4060-4c5f-a963-00f2e972fd7f",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GiveMoney",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "One Modifier",
+                    "id": "e315f9a5-91cd-4842-a45b-498ffbc25191",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GiveMoreMoney",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "49912817-67b9-4293-bf87-c4e69462d642",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GiveMoreMoney",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "binding",
+                    "id": "b950ad3d-dbd4-4c67-baa6-377f2d05c77c",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GiveMoreMoney",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
